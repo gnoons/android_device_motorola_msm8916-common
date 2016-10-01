@@ -140,6 +140,9 @@ PRODUCT_PACKAGES += \
     libOmxVidcCommon \
     libstagefrighthw
 
+# PDFIUM
+TARGET_NEEDS_PDFIUM_BIGINT := true
+
 # Power
 PRODUCT_PACKAGES += \
     power.msm8916
